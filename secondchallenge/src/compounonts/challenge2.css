@@ -1,0 +1,59 @@
+.myHeader{
+    width: 100%;
+    height: 80px;
+    background-color: teal;
+    text-align: center;
+    padding-bottom: 2px;
+    box-shadow: 0px 5px 7px   rgba(0, 0, 0, 0.5) ;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+
+}
+.myBody{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.posts{
+    width: 40%;
+}
+.post{
+   
+    border: solid 5px teal;
+   margin: 16px;
+   padding-inline: 10px;
+
+
+}
+.mybutton{
+    background-color: purple;
+   margin: 10px;
+   padding: 10px;
+   
+   color: white;
+   border-radius: 10%;
+
+   
+
+   cursor: pointer;
+   box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+   
+}
+.mybutton:hover{
+    background-color: rgb(165, 59, 177);
+}
+.mybuttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    text-align: center;
+    border: solid 5px teal;
+    width: 20%;
+    margin: 20px;
+    height: min-content;
+    padding-inline: 20px;
+}
